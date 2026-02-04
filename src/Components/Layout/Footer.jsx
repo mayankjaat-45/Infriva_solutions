@@ -70,7 +70,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
           <span>
-            © {new Date().getFullYear()} Infriva Technologies. All rights
+            © {new Date().getFullYear()} Infriva Solutions. All rights
             reserved.
           </span>
           <span>Built with ❤️ using React</span>
