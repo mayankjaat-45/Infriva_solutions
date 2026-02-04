@@ -117,15 +117,6 @@ const ServiceDetail = () => {
               alt={service.title}
               className="rounded-2xl object-cover mb-6"
             />
-
-            <h3 className="text-xl font-semibold mb-3">
-              Built With Modern Tech
-            </h3>
-
-            <p className="text-gray-300 text-sm leading-relaxed">
-              We use Next.js, Tailwind CSS, MERN Stack, and Python-powered
-              backends to deliver fast, SEO-friendly, and scalable applications.
-            </p>
           </div>
         </motion.div>
       </div>
