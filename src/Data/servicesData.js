@@ -83,4 +83,18 @@ export const servicesData = [
       "Modern Visual Effects",
     ],
   },
+  {
+    title: "Lead Generation",
+    slug: "lead-generation",
+    short: "Qualified leads that convert into real customers.",
+    description:
+      "We help businesses attract, capture, and convert high-intent leads through data-driven strategies. From funnel setup to conversion optimization, our lead generation systems are built to deliver consistent, measurable growth.",
+    image: "/images/services/leadGeneration.webp",
+    features: [
+      "Lead Funnel Strategy & Setup",
+      "Landing Pages & Conversion Optimization",
+      "CRM & Lead Tracking Integration",
+      "High-Intent Audience Targeting",
+    ],
+  },
 ];
