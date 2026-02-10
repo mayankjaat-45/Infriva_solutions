@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -192,18 +193,18 @@ const About = () => {
           </p>
 
           <div className="mt-8 flex justify-center gap-4 flex-wrap">
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-block bg-purple-600 hover:bg-purple-500 px-8 py-3 rounded-xl shadow-lg shadow-indigo-600/30"
             >
               Start a Project
-            </a>
-            <a
-              href="/services"
+            </Link>
+            <Link
+              to="/services"
               className="inline-block border border-white/20 hover:bg-white/10 px-8 py-3 rounded-xl"
             >
               View Services
-            </a>
+            </Link>
           </div>
         </motion.div>
       </div>
