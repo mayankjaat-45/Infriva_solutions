@@ -29,7 +29,7 @@ const Footer = () => {
                 <Link to="/services/ui-ux-design">UI/UX Design</Link>
               </li>
               <li>
-                <Link to="/services/digital-marketing">Digital Marketing</Link>
+                <Link to="/services/paid-advertising">Paid advertising</Link>
               </li>
             </ul>
           </div>
