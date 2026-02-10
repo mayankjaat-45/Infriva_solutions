@@ -1,16 +1,16 @@
 export const servicesData = [
   {
-    title: "Web Development",
-    slug: "web-development",
-    short: "Fast, scalable websites engineered for growth.",
+    title: "Web & App Development",
+    slug: "web-app-development",
+    short: "High-performance web and mobile apps built to scale.",
     description:
-      "We build high-performance, secure, and scalable websites using the latest technologies like React and modern UI systems. Every website is optimized for speed, SEO, and long-term scalability to support real business growth.",
+      "We design and develop secure, scalable web and mobile applications using modern technologies. From responsive websites to powerful apps, our solutions are optimized for performance, user experience, and long-term business growth.",
     image: "/images/services/webCard.webp",
     features: [
-      "React & Modern Frameworks",
-      "SEO & Core Web Vitals Optimized",
-      "High Performance & Speed",
-      "Scalable Architecture",
+      "Web & Mobile App Development",
+      "Modern Frameworks (React, Next.js)",
+      "High Performance & Scalability",
+      "SEO, Speed & App Optimization",
     ],
   },
   {
@@ -28,17 +28,17 @@ export const servicesData = [
     ],
   },
   {
-    title: "Digital Marketing",
-    slug: "digital-marketing",
-    short: "Smart marketing strategies that scale brands.",
+    title: "Paid Advertising",
+    slug: "paid-advertising",
+    short: "High-impact ad campaigns that drive measurable growth.",
     description:
-      "From SEO-driven content to performance marketing, we help brands reach the right audience at the right time. Our data-driven campaigns are designed to increase visibility, engagement, and ROI.",
+      "We create and manage performance-focused ad campaigns across Google, Meta, and other platforms. From audience targeting to creative optimization, our paid ads are built to maximize conversions, reduce costs, and deliver real ROI.",
     image: "/images/services/digitalMarketing.webp",
     features: [
-      "SEO & Content Strategy",
-      "Paid Ads (Google & Social)",
-      "Analytics & Performance Tracking",
-      "Growth Optimization",
+      "Google Ads & Search Campaigns",
+      "Social Media Ads (Meta, Instagram, LinkedIn)",
+      "Conversion Tracking & Pixel Setup",
+      "Campaign Optimization & Scaling",
     ],
   },
   {

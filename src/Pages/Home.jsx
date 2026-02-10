@@ -4,7 +4,6 @@ import Services from "./Services";
 import Footer from "../Components/Layout/Footer";
 import About from "../Components/home/About";
 import SplashCursor from "../Components/SplashCursor";
-
 const Home = () => {
   return (
     <>
