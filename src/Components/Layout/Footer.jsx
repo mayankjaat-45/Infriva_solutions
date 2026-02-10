@@ -37,15 +37,11 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Company</h4>
             <ul className="space-y-3 text-gray-300 text-sm">
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
-              <li>
-                <Link to="/services">Services</Link>
-              </li>
+              <Link to="/about">About</Link>
+
+              <Link to="/contact">Contact</Link>
+
+              <Link to="/services">Services</Link>
             </ul>
           </div>
 
