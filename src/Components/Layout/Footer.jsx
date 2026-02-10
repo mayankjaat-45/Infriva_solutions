@@ -31,7 +31,6 @@ const Footer = () => {
               <li>
                 <Link to="/services/digital-marketing">Digital Marketing</Link>
               </li>
-              
             </ul>
           </div>
 
@@ -68,12 +67,14 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-md text-gray-400">
           <span>
-            © {new Date().getFullYear()} Infriva Solutions. All rights
-            reserved.
+            © {new Date().getFullYear()} Infriva Solutions. All rights reserved.
           </span>
-          <span>Built with ❤️ using React</span>
+          <span className="flex flex-col">
+            Built with ❤️ using React
+            <p className="text-[10px] ml-21"> -Mayank Chaudhary</p>
+          </span>
         </div>
       </div>
     </footer>
