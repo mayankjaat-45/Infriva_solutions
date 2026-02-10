@@ -44,7 +44,7 @@ const Navbar = () => {
               {/* <span>Digi</span>
               <span className="text-indigo-400">PLY</span>
               <span>Media</span> */}
-              <img src={Logo} className="text-white w-20 md:w-xs h-15" />
+              <img src={Logo} className="text-white w-20 md:w-42 h-15" />
             </Link>
 
             {/* Desktop Menu */}
