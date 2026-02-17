@@ -22,7 +22,7 @@ const services = [
 
 // 👉 WhatsApp Handler
 const openWhatsApp = (service) => {
-  const phoneNumber = "919625939827"; // country code + number (no +)
+  const phoneNumber = "918505885515"; // country code + number (no +)
 
   const message = encodeURIComponent(
     service
@@ -102,7 +102,7 @@ const Contact = () => {
               <span className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
                 📞
               </span>
-              <span>+91 9625939827</span>
+              <span>+91 8505885515</span>
             </li>
 
             <li className="flex items-center gap-4">
